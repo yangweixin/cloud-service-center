@@ -1,6 +1,6 @@
 FROM maven:latest
 
-WORKDIR /var/data/maven
+WORKDIR /var/data/maven/cloud-service-center
 
 COPY ./ /var/data/maven/cloud-service-center
 
