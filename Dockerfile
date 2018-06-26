@@ -4,7 +4,7 @@ WORKDIR /var/data/maven
 
 COPY ./ /var/data/maven/cloud-service-center
 
-RUN maven package
+RUN mvn package
 
 FROM java:latest
 
