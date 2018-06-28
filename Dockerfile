@@ -1,4 +1,4 @@
-FROM maven:latest
+FROM registry.cn-hangzhou.aliyuncs.com/oyoung/maven:latest
 
 WORKDIR /var/data/maven/cloud-service-center
 
